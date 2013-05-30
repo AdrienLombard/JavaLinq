@@ -3,7 +3,7 @@ JavaLinq
 
 JavaLinq allows you to search the objects you want into a List or an ArrayList
 
-# How to use
+## How to use
 
 We first create a List of "Personne". This object contains 3 attributes : 
 
@@ -51,4 +51,4 @@ You can also use different conditions in your query :
 String query = "nom != Bob && age > 15";
 ```
 
-For instance, the "or" operator isn't implemented.
+For now, the "or" operator isn't implemented.
