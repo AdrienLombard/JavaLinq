@@ -44,3 +44,11 @@ List<Personne> filteredList = (List<Personne>) lf.construct();
 ```
 
 By using the "construct" method, we get a "List" of "Object" which contains the results of the search.
+
+You can also use different conditions in your query :
+
+```java
+String query = "nom != Bob && age > 15";
+```
+
+For instance, the "or" operator isn't implemented.
